@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: azure;
+    font-family: "Lato", sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    height: 500px;
+    border-radius: 8px;
+    background-color: #333;
+}
+
+.calculo {
+    width: 100%;
+    padding: 10px;
+}
+
+#resultado {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    font-size: 20px;
+    flex-direction: row;
+    background-color: rgb(127, 210, 243);
+    border: solid 2px rgb(69, 193, 241);
+    width: 87%;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    border-radius: 8px;
+}
