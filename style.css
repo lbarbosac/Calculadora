@@ -6,17 +6,17 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: azure;
+    background-color: rgb(225, 248, 248);
     font-family: "Lato", sans-serif;
 }
 
 .container {
-    display: flex;
     justify-content: center;
     width: 300px;
-    height: 500px;
+    height: 480px;
     border-radius: 8px;
     background-color: #333;
+    box-shadow: 5px 5px rgba(176, 179, 179, 0.118);
 }
 
 .calculo {
@@ -29,14 +29,36 @@ body {
     justify-content: center;
     justify-items: center;
     align-items: center;
-    font-size: 20px;
-    flex-direction: row;
+    font-size: 40px;
+    padding: 15px;
     background-color: rgb(127, 210, 243);
-    border: solid 2px rgb(69, 193, 241);
-    width: 87%;
-    padding-bottom: 15px;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-top: 15px;
+    border: solid 5px rgb(69, 193, 241);
+    width: 79.9%;
+    height: 80px;
     border-radius: 8px;
+}
+
+.botoes {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    padding: 15px;
+}
+
+button {
+    background-color: #dcdbdba7;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    font-size: 55px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #dcdbdb44;
+
+}
+
+#c {
+    background-color: rgb(240, 25, 25);
 }
