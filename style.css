@@ -67,55 +67,18 @@ button:hover {
     background-color: rgba(240, 25, 25, 0.815);
 }
 
-.botoes #num1, #num2, #num3 {
-    display: grid;
-    height: 52px;
-}
-
-.botoes #c, #num7, #num4, #num1 {
-    width: 65px;
-}
-
-.botoes #zero {
-    margin-top: -68px;
-    height: 50px;
-    width: 135px;
-}
-
 .botoes #calcular {
     display: flex;
     align-items: center;
     height: 115px;
 }
 
-.botoes #multiplicacao {
-    margin-top: -68px;
+.botoes #num1, #num2, #num3 {
     height: 50px;
 }
 
-.botoes #apagar, #num8, #num5, #num2 {
-    width: 60px;
-    margin-left: -80px;
-}
 
-.botoes #divisao, #num9, #num6, #num3 {
-    width: 60px;
-    margin-left: -78px;
-}
 
-.botoes #multiplicacao {
-    width: 60px;
-    margin-left: -10px;
-}
-
-.botoes #resultado, #somar, #diminuir, #multiplicacao {
-    width: 60px;
-    margin-left: -25px;
-}
-
-#multiplicacao {
-    width: 40px;
-}
 
 
 
