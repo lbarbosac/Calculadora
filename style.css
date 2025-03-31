@@ -100,16 +100,22 @@ button:hover {
 
 .botoes #divisao, #num9, #num6, #num3 {
     width: 60px;
-    margin-left: -60px;
+    margin-left: -78px;
 }
 
 .botoes #multiplicacao {
     width: 60px;
-    margin-left: -28px;
+    margin-left: -10px;
 }
 
+.botoes #resultado, #somar, #diminuir, #multiplicacao {
+    width: 60px;
+    margin-left: -25px;
+}
 
-
+#multiplicacao {
+    width: 40px;
+}
 
 
 
