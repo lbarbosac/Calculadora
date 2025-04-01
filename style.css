@@ -13,7 +13,7 @@ body {
 .container {
     justify-content: center;
     width: 300px;
-    height: 480px;
+    height: 520px;
     border-radius: 8px;
     background-color: #333;
     box-shadow: 5px 5px rgba(176, 179, 179, 0.118);
@@ -50,7 +50,9 @@ button {
     color: #fff;
     border: none;
     border-radius: 10px;
-    font-size: 42px;
+    width: 55px;
+    height: 55px;
+    font-size: 35px;
     cursor: pointer;
 }
 
@@ -70,13 +72,33 @@ button:hover {
 .botoes #calcular {
     display: flex;
     align-items: center;
-    height: 115px;
+    height: 110px;
 }
 
-.botoes #num1, #num2, #num3 {
-    height: 50px;
+.botoes2 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    padding: 15px;
+    margin-top: -10px;
+}  
+
+#zero {
+    width: 130px;
 }
 
+#resposta {
+    height: 120px;
+    margin-left: -20px;
+}
+
+#num2,#num3 {
+    margin-left: -75px;
+}
+
+#zero, #ponto {
+    margin-top: -63px;
+}
 
 
 
