@@ -88,7 +88,7 @@ button:hover {
 }
 
 #resposta {
-    height: 120px;
+    height: 135px;
     margin-left: -20px;
 }
 
@@ -97,7 +97,15 @@ button:hover {
 }
 
 #zero, #ponto {
-    margin-top: -63px;
+    margin-top: -80px;
+}
+
+#ponto {
+    width: 58px;
+}
+
+#num3 {
+    width: 58px;
 }
 
 
